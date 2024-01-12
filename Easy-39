@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class remove
+{
+	public static void main(String args[])
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.print("Enter the string:");
+		String s=input.nextLine();
+		String n=s.replaceAll("[aeiouAEIOU]","");	
+		System.out.print("String after removal of vowels:"+n);
+	}
+}
+	
